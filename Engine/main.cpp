@@ -4,6 +4,6 @@
 
 int main()
 {
-	u32 exitCode = Application::getInstance().ignition();
+	u32 exitCode = Application::getInstance().entry()
 	return exitCode;
 }
